@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.strick{
+    background-color: lightgreen;
+    
+}
+.tableWrapper{
+    min-height: 100px;
+    max-height: 400px;
+    overflow-y: auto;
+    
+}
+table{
+    text-align: center;
+}
+td:nth-child(2){
+    cursor: pointer;
+}
+
+.strick td:nth-child(2){
+    text-decoration: line-through;
+}
